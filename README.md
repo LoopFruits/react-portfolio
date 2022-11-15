@@ -1,5 +1,6 @@
 # Table Of Contents
   * [Getting-started](#getting-started)
+  * [Features](#features)
   * [Setup](#setup)
   * [Code Snippet](#code-snippet)
   * [Technologies](#technologies)
@@ -10,6 +11,8 @@
 ## Getting Started 
 Welcome to the portfolio of Kenneth Jordan
 
+## Features
+* Custom Font CSS
 ## Code Snippet
 
 ## Setup
@@ -18,7 +21,8 @@ Welcome to the portfolio of Kenneth Jordan
    - react
    - tailwindcss
    - react-icons
-   - open-sans (font)
+
+
    
 ## Socials
 
