@@ -14,9 +14,11 @@ Welcome to the portfolio of Kenneth Jordan
 
 ## Setup
 
-## Technologies
+## Technologies 
    - react
    - tailwindcss
+   - react-icons
+   - open-sans (font)
    
 ## Socials
 
