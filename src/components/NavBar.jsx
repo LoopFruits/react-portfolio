@@ -32,11 +32,12 @@ const NavBar = () => {
 
       <ul className="flex">
     
-        {links.map(link => (
-          <li key ={link.id}className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">Home</li>
+        {links.map(({id, link}) => (
+          <li key ={id} className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
+            
+          {link}
+          </li>
         ))}
-      
-        
       </ul>
     </div>
   )
