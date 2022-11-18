@@ -14,7 +14,7 @@ const Home = () => {
                 <div>
                     <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-500 to-orange-500 cursor-pointer">
                         Portfolio 
-                        <span>
+                        <span className="hover:rotate-90">
                             <MdOutlineArrowRightAlt />
                         </span>
                     </button>
