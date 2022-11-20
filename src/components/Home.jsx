@@ -1,6 +1,6 @@
 import React from 'react'
 import ProfilePic from '../images/Profilepic.jpg';
-import { MdOutlineArrowRightAlt } from 'react-icons/md'
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 
 const Home = () => {
   return (
@@ -12,10 +12,11 @@ const Home = () => {
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, omnis!
                 </p>
                 <div>
-                    <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-500 to-orange-500 cursor-pointer">
+                    <button className="transition ease-in-out delay-150 group-hover:rotate-90 hover:-translate-y-1 hover:scale-110 duration-300 text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-500 to-orange-500 cursor-pointer">
                         Portfolio 
-                        <span className="group-hover:rotate-90 duration-300">
-                            <MdOutlineArrowRightAlt size={30}/>
+                        
+                        <span className="hover:rotate-90 duration-300">
+                            <MdOutlineKeyboardArrowRight size={30} className="ml-1"/>
                         </span>
                     </button>
                 </div>
