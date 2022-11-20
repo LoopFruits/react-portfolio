@@ -14,8 +14,8 @@ const Home = () => {
                 <div>
                     <button className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-500 to-orange-500 cursor-pointer">
                         Portfolio 
-                        <span className="hover:rotate-90 duration-300">
-                            <MdOutlineArrowRightAlt />
+                        <span className="group-hover:rotate-90 duration-300">
+                            <MdOutlineArrowRightAlt size={30}/>
                         </span>
                     </button>
                 </div>
