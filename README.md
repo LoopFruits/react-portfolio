@@ -5,6 +5,7 @@
   * [Code Snippet](#code-snippet)
   * [Technologies](#technologies)
   * [Socials](#socials)
+  * [References](#references)
 
 
 
@@ -26,9 +27,10 @@ To try out this project:
 
 
 ## Technologies 
-   - react
-   - tailwindcss
-   - react-icons
+   - React
+   - TailwindCSS
+   - React-icons
+   - HTML
 
 
    
@@ -38,3 +40,10 @@ To try out this project:
    - https://twitter.com/Kenneththedev
    - https://medium.com/@Kenneththedev
    - https://github.com/LoopFruits
+
+
+## References
+
+* https://bootcamp.uxdesign.cc/your-portfolios-are-fucking-boring-293b97ac45c1
+*  https://tailwindcss.com/
+*  https://github.com/hjkmines/BugView-MERN-Project
