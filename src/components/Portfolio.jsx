@@ -9,10 +9,12 @@ const Portfolio = () => {
         {
             id: 1,
             src:PokeFinder,
+            href: 'https://github.com/EthanIsola/PokeFinder'
         },
         {
             id: 2,
             src:MentalHealthWithoutBorders,
+            href:'https://github.com/LoopFruits/phase-3-frontend',
         },
     ]
 
