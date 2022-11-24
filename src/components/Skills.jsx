@@ -1,19 +1,19 @@
 import React from 'react'
-import ruby from '../images/ruby.svg'
+import Ruby from '../images/Ruby.png'
 
 const Skills = () => {
 
   const skill = [
     {
       id: 1,
-      src: ruby,
+      src: Ruby,
       title: 'Ruby',
       style: 'shadow-red-500'
     },
   ]
   return (
     <div name="skills" className="h-screen w-full bg-gradient-to-b from-red to-orange-500">
-      <img src={ruby} alt="Ruby" className="w-20 mx-auto"/>
+      <img src={Ruby} alt="Ruby" className="w-20 mx-auto"/>
       <p className="mt-4">Ruby</p>
     </div>
   )
