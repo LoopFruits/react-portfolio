@@ -36,7 +36,7 @@ To try out this project:
    
 ## Socials
 
-   - mailto:Kenneththedev@gmail.com
+   - Kenneththedev@gmail.com
    - https://twitter.com/Kenneththedev
    - https://medium.com/@Kenneththedev
    - https://github.com/LoopFruits
