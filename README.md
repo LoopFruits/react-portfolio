@@ -1,7 +1,7 @@
 # Table Of Contents
   * [Getting-started](#getting-started)
   * [Features](#features)
-  * [Setup](#setup)
+  * [Installation Steps](#installation-steps)
   * [Code Snippet](#code-snippet)
   * [Technologies](#technologies)
   * [Socials](#socials)
@@ -16,14 +16,25 @@ Welcome to the portfolio of Kenneth Jordan
 * Custom Font CSS
 ## Code Snippet
 
-## Setup
-To try out this project:
+## Installation Steps
 
-1. Clone the GitHub repository locally to your computer
-2. In the command line, navigate to the root directory of the repository, and type the following: `npm install`
-3. Navigate to the client folder, and in the root directory of the client folder, type the following: `npm install`
-4. Lastly, type `npm start` to run the application.
+1. Clone the repository
 
+```bash
+git clone https://github.com/rahuldkjain/github-profile-readme-generator.git
+```
+
+2. Change the working directory
+
+```bash
+cd github-profile-readme-generator
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
 
 
 ## Technologies 
