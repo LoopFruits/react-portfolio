@@ -35,7 +35,7 @@ cd react-portfolio
 ```bash
 npm install
 ```
-4.
+4. Running the application
 ```bash
 npm start
 ```
