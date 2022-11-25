@@ -21,19 +21,23 @@ Welcome to the portfolio of Kenneth Jordan
 1. Clone the repository
 
 ```bash
-git clone https://github.com/rahuldkjain/github-profile-readme-generator.git
+git clone https://github.com/LoopFruits/react-portfolio.git
 ```
 
 2. Change the working directory
 
 ```bash
-cd github-profile-readme-generator
+cd react-portfolio
 ```
 
 3. Install dependencies
 
 ```bash
 npm install
+```
+4.
+```bash
+npm start
 ```
 
 
