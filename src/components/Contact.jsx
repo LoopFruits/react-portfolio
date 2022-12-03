@@ -10,7 +10,7 @@ const Contact = () => {
             </div>
             <div>
               <form action=""></form>
-                <input type="text" name="name" placeholder="Enter your name"
+                <input type="text" name="name" placeholder="Enter your name"></input>
             </div>
         </div>
     </div>
