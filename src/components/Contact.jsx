@@ -5,8 +5,12 @@ const Contact = () => {
     <div>
         <div>
             <div>
-                <p></p>
-                <p></p>
+                <p>Contact</p>
+                <p> Submit the form below to get in touch with me </p>
+            </div>
+            <div>
+              <form action=""></form>
+                <input type="text" name="name" placeholder="Enter your name"
             </div>
         </div>
     </div>
