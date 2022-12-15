@@ -48,7 +48,7 @@ npm start
    - React-icons
    - React-scroll
    - Getform.io
-   - HTML
+   
 
 
    
