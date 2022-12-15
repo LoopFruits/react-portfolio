@@ -15,6 +15,7 @@ Welcome to the portfolio of Kenneth Jordan
 ## Features
 * Custom Font CSS
 * Contact form integrated with Getform.io
+* Fully Responsive on desktop and mobile 
 ## Code Snippet
 
 ## Installation Steps
