@@ -2,18 +2,18 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-gradient-to-b from-sky-500 to-violet-500 text-white">
+    <div name="about" className="w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white">
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
             <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-5 border-black">About</p>
             </div>
             <p className="tex-xl mt-20">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat tempora rerum officiis recusandae harum atque est possimus libero assumenda vitae quae molestias repudiandae nihil, nobis voluptates magnam esse. Suscipit, saepe voluptatem. Reprehenderit a amet, officiis sapiente cumque ab perspiciatis illo molestiae expedita ipsam soluta labore doloremque tempore, cupiditate fugiat nihil?
+            Experienced in JavaScript and Ruby on Rails based programming with a background in Personal Training. My experience of living in Spain gives me unique skills in cross-cultural collaboration. I Possess strong skills in communication and teamwork that help companies drive positive results with innovative and creative ideas. Passionate about learning and staying up to date with tech.
             </p>
             <br />
-            <p className="text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi tenetur, praesentium earum sapiente incidunt maiores enim in vitae odio adipisci, porro, quia aperiam perferendis pariatur blanditiis aliquam placeat autem hic deserunt dolor voluptatem unde quam optio illo. Dolorem incidunt perferendis facilis laboriosam maxime! Nostrum rem unde mollitia ipsam facere molestias.
-            </p>
+            {/* <p className="text-xl">
+                 second paragraph for the future
+            </p> */}
         </div>
     </div>
   )

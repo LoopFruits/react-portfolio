@@ -13,11 +13,11 @@ const NavBar = () => {
     },
     {
       id: 2,
-      link: 'experience'
+      link: 'about'
     },
     {
       id: 3,
-      link: 'about'
+      link: 'skills'
     },
     {
       id: 4,
@@ -37,16 +37,20 @@ const NavBar = () => {
       <ul className="hidden md:flex">
         {/* Mapping over our id's and links */}
         {links.map(({id, link}) => (
-          <li key ={id} className="px-4 cursor-pointer capitalize font-medium text-white hover:text-sky-400 hover:scale-105 duration-200">
+          <li 
+            key ={id} 
+            className="px-4 cursor-pointer capitalize font-medium text-white hover:text-sky-400 hover:scale-105 duration-200">
 
-          <Link to={link} smooth duration={500}>
-            {link}
-          </Link>
+            <Link 
+              to={link} 
+              smooth duration={500}>
+              {link}
+            </Link>
           </li>
         ))}
       </ul>
 
-    <div onClick ={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
+    <div onClick ={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-white md:hidden">
       {nav ? <FaTimes size={30} /> : <FaBars size={30} /> }
     </div>
 
@@ -60,8 +64,8 @@ const NavBar = () => {
 
         {links.map(({id, link}) => (
           <li 
-          key ={id} 
-          className="px4 cursor-pointer capitalize py-6 text-4xl">
+            key={id} 
+            className="px4 cursor-pointer capitalize py-6 text-4xl">
 
           <Link 
             onClick={() => setNav(!nav)}
