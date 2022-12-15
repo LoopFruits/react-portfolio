@@ -45,6 +45,8 @@ npm start
    - React
    - TailwindCSS
    - React-icons
+   - React-scroll
+   - Getform.io
    - HTML
 
 
