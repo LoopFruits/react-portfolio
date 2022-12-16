@@ -18,7 +18,7 @@ Welcome to the portfolio of Kenneth Jordan
 * Fully Responsive on desktop and mobile 
 ## Code Snippet
 
-`const NavBar = () => {
+```const NavBar = () => {
 
   const [nav,setNav]= useState(false);
 
@@ -68,7 +68,8 @@ Welcome to the portfolio of Kenneth Jordan
 
     <div onClick ={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-white md:hidden">
       {nav ? <FaTimes size={30} /> : <FaBars size={30} /> }
-    </div>`
+    </div>
+```    
 
 ## Installation Steps
 
