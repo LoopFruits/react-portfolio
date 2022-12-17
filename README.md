@@ -16,6 +16,7 @@ Welcome to the portfolio of Kenneth Jordan
 * Custom Font CSS
 * Contact form integrated with Getform.io
 * Fully Responsive on desktop and mobile 
+
 ## Code Snippet
 
 ```const NavBar = () => {
@@ -117,5 +118,5 @@ npm start
 ## References
 
 * https://bootcamp.uxdesign.cc/your-portfolios-are-fucking-boring-293b97ac45c1
-*  https://tailwindcss.com/
-*  https://github.com/hjkmines/BugView-MERN-Project
+* https://tailwindcss.com/
+* https://github.com/hjkmines/BugView-MERN-Project
