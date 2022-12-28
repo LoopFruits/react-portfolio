@@ -98,7 +98,7 @@ npm start
 
 
 ## Technologies 
-   - React
+   - React.JSX
    - TailwindCSS
    - React-icons
    - React-scroll
