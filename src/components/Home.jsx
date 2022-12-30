@@ -18,7 +18,7 @@ const Home = () => {
                         className="group transition ease-in-out delay-150 group-hover:rotate-90 hover:-translate-y-1 hover:scale-110 duration-300 text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-500 to-orange-500 cursor-pointer">
                         Portfolio 
                         
-                        <span className="hover:rotate-90 animate-bounce duration-300">
+                        <span className="hover:animate-bounce  duration-300">
                             <MdOutlineArrowDownward size={30} className="ml-1"/>
                         </span>
                     </Link>
