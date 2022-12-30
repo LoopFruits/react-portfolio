@@ -98,7 +98,7 @@ npm start
 
 
 ## Technologies 
-   - React
+   - React.JSX
    - TailwindCSS
    - React-icons
    - React-scroll
@@ -113,10 +113,16 @@ npm start
    - https://twitter.com/Kenneththedev
    - https://medium.com/@Kenneththedev
    - https://github.com/LoopFruits
+   
+<br>
+<details><summary>show references</summary>
 
-
+<p>
+ 
 ## References
 
 * https://bootcamp.uxdesign.cc/your-portfolios-are-fucking-boring-293b97ac45c1
 * https://tailwindcss.com/
 * https://github.com/hjkmines/BugView-MERN-Project
+
+</details>
