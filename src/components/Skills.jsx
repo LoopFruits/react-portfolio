@@ -55,10 +55,10 @@ const Skills = () => {
     
   ]
   return (
-    <div name="skills" className="bg-gradient-to-b from-red-500 to-orange-500 h-screen w-full text-black" >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black">
+    <div name="skills" className="bg-gradient-to-b from-indigo-800 to-violet-500 h-screen w-full text-white" >
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className='text-4xl font-bold border-b-4-border-black p-2 inline'>Skills</p>
+          <p className='text-4xl font-bold  p-2 inline'>Skills</p>
           <p className='py-6'>These are the technologies I have worked with </p>
         </div>
 
