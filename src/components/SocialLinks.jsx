@@ -53,7 +53,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30}/>        
                 </>
             ),
-            href: '/Kenneth Jordan SE Resume.pdf',
+            href: '/Kenneth Jordan Resume.pdf',
             style: 'rounder-br-md',
             download: true, // allows file download
         },
