@@ -8,7 +8,7 @@ const About = () => {
                 <p className="text-4xl font-bold inline">About</p>
             </div>
             <p className="text-xl mt-20">
-            Experienced in JavaScript and Ruby on Rails based programming with a background in Kinesiology.I Possess strong skills in communication and teamwork that help companies drive positive results with innovative and creative ideas. Passionate about learning and staying up to date with tech.
+            New York based engineer with a background in Kinesiology.Experienced in JavaScript and Ruby on Rails based programming.I Possess strong skills in communication and teamwork that help companies drive positive results with innovative and creative ideas. Passionate about learning and staying up to date with tech.
             </p>
             <br />
             {/* <p className="text-xl">
