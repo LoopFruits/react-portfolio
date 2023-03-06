@@ -110,9 +110,9 @@ npm start
 ## Socials
 
    - Kenneththedev@gmail.com
+   - https://github.com/LoopFruits
    - https://twitter.com/Kenneththedev
    - https://medium.com/@Kenneththedev
-   - https://github.com/LoopFruits
    
 <br>
 <details><summary>show references</summary>
