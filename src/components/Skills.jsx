@@ -20,7 +20,7 @@ const Skills = () => {
       id: 2,
       src: css,
       title: 'CSS',
-      style: 'shadow-blue-500'
+      style: 'shadow-violet-500'
     },
     {
       id: 3,
@@ -50,7 +50,7 @@ const Skills = () => {
       id: 7,
       src: postgresql,
       title: 'PostgreSQL',
-      style: 'shadow-sky-500'
+      style: 'shadow-green-500'
     },
     
   ]
