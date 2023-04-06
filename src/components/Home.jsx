@@ -10,7 +10,7 @@ const Home = () => {
             <div className="flex flex-col justify-center h-full">
                 <h2 className="text-4xl sm:text-7xl font-bold text-white"> I'm a Junior Full Stack Software Engineer</h2>
                 <p className="text-gray-500 py-4 max-w-md"> 
-                    Junior Software Engineer. I love to work on web applications using technologies such as JavaScript, ReactJS, Ruby on Rails, TailwindCSS and PostgreSQL.
+                    Junior Full Stack Software Engineer. I love to work on web applications using technologies such as JavaScript, ReactJS, Ruby on Rails, TailwindCSS and PostgreSQL.
                 </p>
                 <div>
                     <Link 
