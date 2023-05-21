@@ -10,7 +10,7 @@
 
 
 ## Getting Started 
-Welcome to the portfolio of Kenneth Jordan, I'm interested in furthering my developmental knowledge in tech. I have a passion for sports and gaming. I'm a competitive person who loves to learn. I'm open to  Frontend, Backend, or Full Stack positions.
+Welcome to the portfolio of Kenneth Jordan. I am eager to enhance my knowledge in tech development, with a particular interest in sports and gaming. As a competitive individual with a strong passion for learning, I am open to exploring opportunities in Frontend, Backend, or Full Stack positions.
 
 ## Features
 * Custom Font CSS
