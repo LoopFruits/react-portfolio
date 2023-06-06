@@ -8,7 +8,7 @@ const About = () => {
                 <p className="text-4xl font-bold inline">About</p>
             </div>
             <p className="text-xl mt-20">
-            As an experienced engineer with a background in Kinesiology, I have a strong foundation in problem-solving and analytical thinking. With expertise in JavaScript and Ruby on Rails based programming, I'm able to develop software solutions that drive positive results for companies. I possess excellent communication and teamwork skills that enable me to collaborate with colleagues to create innovative and creative ideas. As a lifelong learner, I'm passionate about staying up to date with the latest tech trends to create software that meets user needs.
+            As a seasoned engineer with a Kinesiology background, I combine advanced problem-solving with strong JavaScript and Ruby on Rails expertise to craft impactful software solutions. My excellent communication and collaboration skills drive innovation within teams. A committed lifelong learner, I continuously adapt to tech trends to meet user needs.
             </p>
             <br />
             {/* <p className="text-xl">

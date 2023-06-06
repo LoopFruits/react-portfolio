@@ -1,6 +1,7 @@
 import React from 'react'
 import PokeFinder from '../images/PokeFinder.png'
 import MentalHealthWithoutBorders from '../images/MentalHealthWithoutBorders.png'
+import Doppelganger from'../images/Doppelganger.jpg'
 
 
 const Portfolio = () => {
@@ -13,9 +14,15 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src:MentalHealthWithoutBorders,
-            href:'https://github.com/LoopFruits/phase-3-frontend',
+            src:Doppelganger,
+            href:'https://doppelganger-six.vercel.app/'
         },
+        {
+            id: 3,
+            src:MentalHealthWithoutBorders,
+            href:'https://github.com/LoopFruits/phase-3-frontend'
+        },
+        
     ]
 
   return (
