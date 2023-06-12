@@ -68,7 +68,7 @@ const Skills = () => {
             skill.map(({id,title,src,style}) =>(
               <div 
               key={id}
-             className={`shadow-md  duration-500 hover:animate-headShake py-2 rounded-lg  ${style}`}>
+              className={`shadow-md  duration-500 hover:animate-headShake py-2 rounded-lg  ${style}`}>
             <img src={src} alt="" className="w-20 mx-auto"></img>
             <p className="mt-4">{title}</p>
           </div>
