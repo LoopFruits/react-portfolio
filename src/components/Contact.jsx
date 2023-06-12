@@ -28,7 +28,7 @@ const Contact = () => {
                 <textarea 
                 name="message" 
                 rows="10" 
-                placeholder="Lorem ipsum dolor sit amet"
+                placeholder="Example Text Here"
                 className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
                 >
                 </textarea>
