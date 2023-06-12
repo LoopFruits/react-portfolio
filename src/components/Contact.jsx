@@ -32,7 +32,7 @@ const Contact = () => {
                 className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
                 >
                 </textarea>
-                 submits the form data and allows users to contact me.
+                 {/* submits the form data and allows users to contact me. */}
                 <button className="text-white bg-blue-500 shadow-lg shadow-blue-500/50 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 drop-shadow-md hover:drop-shadow-xl">
                   Let's talk
                 </button>
