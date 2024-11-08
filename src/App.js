@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 import  Contact  from "./components/Contact";
+import './index.css';
 
 
 function App() {

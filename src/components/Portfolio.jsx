@@ -1,7 +1,7 @@
 import React from 'react'
 import PokeFinder from '../images/PokeFinder.png'
-import MentalHealthWithoutBorders from '../images/MentalHealthWithoutBorders.png'
 import Doppelganger from'../images/Doppelganger.jpg'
+import myResume from '../images/myResume.jpg'
 
 
 const Portfolio = () => {
@@ -19,8 +19,8 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            src:MentalHealthWithoutBorders,
-            href:'https://github.com/LoopFruits/phase-3-frontend'
+            src:myResume,
+            href:'https://kennethresume.netlify.app/'
         },
         
     ]
@@ -37,18 +37,18 @@ const Portfolio = () => {
         
 
             <div className="grid sm:gird-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                {portfolios.map(({id,src,href}) => (
+                {portfolios.map(({id,src,href,title,description}) => (
                 <div 
                     key ={id}
-                    className="shadow-md shadow-gray-600 rounded-lg">
-                    <img 
-                    src={src} 
-                    alt=""
-                    className="rounded-md duration-200 hover:scale-105"
-                    />
-                    <div className="flex items-center justify-center">
-                        <a href={href} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</a>
-                        <a href={href} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</a>
+                    className="w-full h-64 object-cover rounded-t-lg">
+                    <img src={src} alt=""className="w-full h-48 object-cover"/>
+                    <div className="p-4">
+                        <h3 className="text-xl font-semibold">{title}</h3>
+                        <p className="text-gray-500 mt-2">{description}</p>
+                        <div className="flex space-x-4 mt-4">
+                            <a href={href} className="px-6 py-3 bg-blue-500 text-white rounded-md transition-all duration-200 hover:bg-blue-600">Demo</a>
+                            <a href={href} className="px-6 py-3 bg-blue-500 text-white rounded-md transition-all duration-200 hover:bg-blue-600">Code</a>
+                        </div>
                     </div>
                 </div>
                 ))}
