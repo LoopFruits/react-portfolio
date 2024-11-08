@@ -36,21 +36,13 @@ const Portfolio = () => {
 
         
 
-            <div className="grid sm:gird-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                {portfolios.map(({id,src,href,title,description}) => (
-                <div 
-                    key ={id}
-                    className="w-full h-64 object-cover rounded-t-lg">
-                    <img src={src} alt=""className="w-full h-48 object-cover"/>
-                    <div className="p-4">
-                        <h3 className="text-xl font-semibold">{title}</h3>
-                        <p className="text-gray-500 mt-2">{description}</p>
-                        <div className="flex space-x-4 mt-4">
-                            <a href={href} className="px-6 py-3 bg-blue-500 text-white rounded-md transition-all duration-200 hover:bg-blue-600">Demo</a>
-                            <a href={href} className="px-6 py-3 bg-blue-500 text-white rounded-md transition-all duration-200 hover:bg-blue-600">Code</a>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+                {portfolios.map(({id,src,href,title}) => (
+                    <a key={id} href={href} target="_blank" rel="noopener noreferrer" className="group">
+                        <div className="shadow-lg rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105">
+                            <img src={src} alt={title} className="w-full h-64 object-cover rounded-lg group-hover:opacity-90"/>
                         </div>
-                    </div>
-                </div>
+                    </a>
                 ))}
             </div>
         </div>
