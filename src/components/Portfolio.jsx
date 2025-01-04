@@ -1,5 +1,5 @@
 import React from 'react'
-import PokeFinder from '../images/PokeFinder.png'
+import Fizz from '../images/Fizz.png'
 import Doppelganger from'../images/Doppelganger.jpg'
 import myResume from '../images/myResume.jpg'
 
@@ -9,8 +9,8 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src:PokeFinder,
-            href: 'https://github.com/EthanIsola/PokeFinder'
+            src:Fizz,
+            href: 'https://fizzi.vercel.app/'
         },
         {
             id: 2,
